@@ -108,6 +108,15 @@ i.glyphicon.glyphicon-menu-hamburger {
 	font-size: 2em;
 	border: 2px solid #000;
 }	
+
+.pin_input{
+	height: 60px;
+	width: 168px;
+	text-align: center;
+	font-size: 2em;
+	border: 2px solid #000;
+}
+
 /*main containt end*/
 
 /*--- slider-css --*/
