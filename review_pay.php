@@ -1,4 +1,7 @@
-<?php include "header.php" ?>
+<?php 
+    include "header.php";
+
+?>
 
     <div class="w3layouts-partners">
 
@@ -10,25 +13,28 @@
 				<h2>Review the detail before pay</h2>
 				<br>
 
-				<form class="form-horizontal" action="#" method="post">
+				<form class="form-horizontal" action="paybill_db.php" method="post">
                     <div class="form-group">
-                        <label for="Amount" class="col-sm-2 control-label">Accout Number</label>
+                        <label for="Account number" class="col-sm-2 control-label">Accout Number</label>
                         <div class="col-sm-10">
-                            XXXXXXXXXXXX
+                            <?php echo $_POST['p_acn']; ?>
+                            <input type="hidden" name="p_acn" value="<?php echo $_POST['p_acn']?>" />
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="Amount" class="col-sm-2 control-label">KID</label>
+                        <label for="KID" class="col-sm-2 control-label">KID</label>
                         <div class="col-sm-10">
-                            XXXXXXXXXXXX
+                            <?php echo $_POST['p_kid']; ?>
+                            <input type="hidden" name="p_kid" value="<?php echo $_POST['p_kid']?>" />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label for="Amount" class="col-sm-2 control-label">Amount</label>
                         <div class="col-sm-10">
-                            XXXXXXXXXXXX
+                            <?php echo $_POST['p_amount']; ?>
+                            <input type="hidden" name="p_amount" value="<?php echo $_POST['p_amount']?>" />
                         </div>
                     </div>
 
