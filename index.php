@@ -1,4 +1,7 @@
-<?php include "header.php" ?>
+<?php 
+	include "header.php";
+	// code to clear all the session.
+ ?>
 
     <div class="w3layouts-partners">
 
@@ -11,7 +14,7 @@
 				<div class="col-sm-6">
 	        	
 		        	<a href="enter_pin.php">
-		        		<button class="btn btn-primary btn-lg btn-block">With Card</button>
+		        		<button class="btn btn-primary btn-lg btn-block">With Card <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span> </button>
 	        		</a>
 	        		
 	        		<br><br>

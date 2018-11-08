@@ -40,7 +40,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <header>
   <div class="container">
     <!--logo-->
-      <div class="logo">
-        <h1><a href="index.php">Meccano ATM</a></h1>
-      </div>
+      	<div class="logo">
+        	<h1><a href="index.php">Meccano ATM</a></h1>
+      	</div>
+      	<?php 
+      	 	$link = $_SERVER['PHP_SELF'];
+    		$link_array = explode('/',$link);
+    		$page = end($link_array);
+    		if($page != 'index.php' && $page != 'enter_pin.php' && $page != 'enter_phone.php' && $page != 'enter_sixdigits.php'){?>
+		      	<div class="w3layouts-login">
+					<a href="logout"><i class="glyphicon glyphicon-user"> </i>Logout</a>
+				</div>
+		<?php } ?>
 </header>
