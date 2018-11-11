@@ -4,6 +4,7 @@
 
     include "config.php";
 
+    $error = "";
     if($_SERVER["REQUEST_METHOD"] == "POST"){
 
          // To check entered username and password are matching with the data saved in `users` table
@@ -19,8 +20,7 @@
             $_SESSION['u_id'] = $u_id;
             header('location: user_home.php');
         } else {
-            echo "Incorrect Pin. Please go back and try again."; 
-            exit; 
+            $error = "Incorrect Pin."; 
         }
     }
  ?>
@@ -35,8 +35,10 @@
             	<div class="main_containt">
 
             		<input type="password" class="pin_input" maxlength="4" size="4" name="pin" >	
-                    <br><br>
-
+                    <br>
+                    <span class="error_message"> <?php echo $error; ?></span>
+                    <br>
+                    <br>
             		<a href="index.php">
                         <input type="button" class="btn btn-primary btn-lg" value="Cancel">
                     </a>

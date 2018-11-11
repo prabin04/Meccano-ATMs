@@ -22,8 +22,8 @@
 
         if($pay_amount >= $balance){
             $error_amount = "You do not have sufficient balance to pay the bill.";
-        }elseif($pay_amount > 5000){
-            $error_amount = 'You can pay a bill amout only up 5000.';
+        }elseif($pay_amount > 10000){
+            $error_amount = 'You can pay a bill amount only up 5000.';
         }else{
             $remaining_amount = $balance - $pay_amount;
             $date = date('y-m-d');
@@ -55,7 +55,7 @@
                     <div class="form-group">
                         <label for="Amount" class="col-sm-2 control-label">Accout Number</label>
                         <div class="col-sm-10">
-                            <input type="input" class="form-control atm_input" placeholder="Account" required="required" name="p_acn"/>
+                            <input type="input" class="form-control atm_input" placeholder="Account Number" required="required" name="p_acn"/>
                         </div>
                     </div>
 

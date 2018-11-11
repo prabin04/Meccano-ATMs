@@ -34,9 +34,9 @@
         if($withdraw_amount >= $balance){
             $error_message = "Amount is greater than the actual balance";
         }elseif($withdraw_amount > $limit){
-            $error_message = 'Withdraw amount limit has exceded.';
+            $error_message = 'Withdraw amount limit has exceeded.';
         }elseif($total_amount > $limit){
-            $error_message = 'Withdraw amount limit has exceded for a day.';
+            $error_message = 'Withdraw amount limit has exceeded for a day.';
         }else{
             $_SESSION['withdraw_amount'] = $withdraw_amount;
             $_SESSION['balance'] = $balance;

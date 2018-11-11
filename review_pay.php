@@ -17,24 +17,24 @@
                     <div class="form-group">
                         <label for="Account number" class="col-sm-2 control-label">Accout Number</label>
                         <div class="col-sm-10">
-                            <?php echo $_POST['p_acn']; ?>
-                            <input type="hidden" name="p_acn" value="<?php echo $_POST['p_acn']?>" />
+                            123456789
+                            <input type="hidden" name="p_acn" value="123456789" />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label for="KID" class="col-sm-2 control-label">KID</label>
                         <div class="col-sm-10">
-                            <?php echo $_POST['p_kid']; ?>
-                            <input type="hidden" name="p_kid" value="<?php echo $_POST['p_kid']?>" />
+                            123456
+                            <input type="hidden" name="p_kid" value="123456" />
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label for="Amount" class="col-sm-2 control-label">Amount</label>
                         <div class="col-sm-10">
-                            <?php echo $_POST['p_amount']; ?>
-                            <input type="hidden" name="p_amount" value="<?php echo $_POST['p_amount']?>" />
+                            500
+                            <input type="hidden" name="p_amount" value="500" />
                         </div>
                     </div>
 

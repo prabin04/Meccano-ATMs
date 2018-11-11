@@ -27,7 +27,7 @@
 
     <div class="w3layouts-partners">
 
-    <h3>Enter You Phone Number</h3>
+    <h3>Enter Six Digits code</h3>
 
       	<div class="container">
         	

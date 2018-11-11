@@ -14,7 +14,7 @@
 				<div class="col-sm-6">
 	        	
 		        	<a href="enter_pin.php">
-		        		<button class="btn btn-primary btn-lg btn-block">With Card <span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span> </button>
+		        		<button class="btn btn-primary btn-lg btn-block">With Card</button>
 	        		</a>
 	        		
 	        		<br><br>

@@ -12,7 +12,7 @@
   			  <h3>Withdraw</h3>     
           <center>
   			  <div class=" main_containt">
-    				<h2>Are you sure you want to withdraw this <?php echo $withdraw_amount ?> amount?</h2>
+    				<h2>Are you sure you want to withdraw <?php echo $withdraw_amount ?> NOK?</h2>
     				<br>
 
     				<a href="user_home.php"><input type="button" class="btn btn-primary btn-lg" value="Cancel"></a>
